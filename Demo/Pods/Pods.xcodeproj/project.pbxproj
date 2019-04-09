@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082B618CAF9DF100281DF28FF30B9B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D797E906E4BD2296D9DE8B21B1F3AD9A /* Foundation.framework */; };
+		0CB087AC7784C490AF1B9B3ACC4F5620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D797E906E4BD2296D9DE8B21B1F3AD9A /* Foundation.framework */; };
+		0CBFEA45DC093D8995AB84FA45278DB6 /* UIEvent+FakeTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3945155347EA973C7AD4282D6FEEB8 /* UIEvent+FakeTouch.swift */; };
+		0F7CC310679C39B12B2B686438DA9D42 /* UIApplication+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 98917296A434730548FDA9699BE9F8C6 /* UIApplication+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F68AD6EF2CBBDF7E4BC6229A143BEE1 /* TouchPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9315116221D2FA209EAC8ACC5F5A4 /* TouchPlayer.swift */; };
+		2DB42EF8E8E88AB8F2E936431C6F51C6 /* UIEvent+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F52FA099D62A620E22154C4271A50507 /* UIEvent+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7742749ABC807EC20494DFF29A11B5 /* FakeTouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7778CE71602A2D51C8DBC2E5730B0D1 /* FakeTouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5161FC4A6759CD2FF641E724631668F7 /* TouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F0A1C9C3B53EB5850A982EFA1FCB01 /* TouchEvent.swift */; };
+		551AB1A08942F1AAF81F29669B1663B0 /* Pods-ReplayDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333BB4D19C57FF7C5435200ECA0824DC /* Pods-ReplayDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA0B5A7F2A903234B1CC6A76CC0F82C /* FakeTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 842D840941F32A70BB5E10FCBBB65F9E /* FakeTouch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FAB5BA9DD95C01F2864EC1F407B7E1C /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F72511C7DC320F4873825D7837FCD1 /* IOHIDEvent+KIF.m */; };
+		9A3BF5EBF224F9448C5284C272BD783E /* UITouch+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F335842221E0EAA4A0142F14DB08922A /* UITouch+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97B3C0A5A36A5953AE6F5A1B8BC5F0E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E710DA8B9C439E1805BC6A4A7D445F /* IOKit.framework */; };
+		C21D4C15325071788BDFB9D1AD6D6750 /* FakeTouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 885ABE74DFC9385580DC131938937D04 /* FakeTouch-dummy.m */; };
+		D56783FB8225AEF1C73A93B58CDA8376 /* Pods-ReplayDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C1937990EA506B1C007060DD9DD55F /* Pods-ReplayDemo-dummy.m */; };
+		D57A0BDAC438614AA294DACCC8701C89 /* UITouch+FakeTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D010488D85FA78EF4935EF96B0B8D06 /* UITouch+FakeTouch.swift */; };
+		D7CFF3E34B6D087DB3B1A2BF050F3758 /* TouchRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C001D9B0B0CE5F2A649318850F35C61E /* TouchRecorder.swift */; };
+		F53C2A079B00FAD86B8EE8E32A9CD998 /* Touch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD14C362F749F09EC9887EBA145A31 /* Touch.swift */; };
+		FAC1A2C87B7B20EF52BDCD1E60B790D0 /* IOHIDEvent+KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = C973BE1D801C49261CA98C03B69168ED /* IOHIDEvent+KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CCCE9E4E64C18D5D1526410E1A621E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEE871926F65FD30556C08072FE4FDF;
+			remoteInfo = FakeTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		103FBC100BCCFB88034CD3F0ADE8FE51 /* Pods-ReplayDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplayDemo-frameworks.sh"; sourceTree = "<group>"; };
+		213163F199F102811A76E9CECF8F041C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		333BB4D19C57FF7C5435200ECA0824DC /* Pods-ReplayDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReplayDemo-umbrella.h"; sourceTree = "<group>"; };
+		3BE6125D23C0537FBEDBB0865D8FDF14 /* Pods-ReplayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		40FD14C362F749F09EC9887EBA145A31 /* Touch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Touch.swift; sourceTree = "<group>"; };
+		4B3945155347EA973C7AD4282D6FEEB8 /* UIEvent+FakeTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIEvent+FakeTouch.swift"; path = "Source/UIEvent+FakeTouch.swift"; sourceTree = "<group>"; };
+		4B654864B5E04867EF83BB24FBCB770C /* Pods-ReplayDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplayDemo-resources.sh"; sourceTree = "<group>"; };
+		4D010488D85FA78EF4935EF96B0B8D06 /* UITouch+FakeTouch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITouch+FakeTouch.swift"; path = "Source/UITouch+FakeTouch.swift"; sourceTree = "<group>"; };
+		51665111A8379246D5E29573B0F9523B /* Pods_ReplayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplayDemo.framework; path = "Pods-ReplayDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E710DA8B9C439E1805BC6A4A7D445F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C2FBDA9BC8AD7CA78725CE42BCB1554 /* FakeTouch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FakeTouch.xcconfig; sourceTree = "<group>"; };
+		5F417A1CD5CF824980373A48C14ED2B9 /* Pods-ReplayDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplayDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		60F0A1C9C3B53EB5850A982EFA1FCB01 /* TouchEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchEvent.swift; sourceTree = "<group>"; };
+		842D840941F32A70BB5E10FCBBB65F9E /* FakeTouch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FakeTouch.h; path = Source/FakeTouch.h; sourceTree = "<group>"; };
+		84F72511C7DC320F4873825D7837FCD1 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		85B77580AB497F495AF727481689551E /* FakeTouch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeTouch-prefix.pch"; sourceTree = "<group>"; };
+		885ABE74DFC9385580DC131938937D04 /* FakeTouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FakeTouch-dummy.m"; sourceTree = "<group>"; };
+		8BCB504EB10BBA31DC5951F5D373EE08 /* FakeTouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FakeTouch.modulemap; sourceTree = "<group>"; };
+		98917296A434730548FDA9699BE9F8C6 /* UIApplication+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Private.h"; sourceTree = "<group>"; };
+		9A91E895405142F5E64B9F809BF979DE /* FakeTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FakeTouch.framework; path = FakeTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D3A3C49931D86C9C5E2043A5F67CA61 /* Pods-ReplayDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplayDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0759FD606DF28C792624C9CA7E7C62A /* Pods-ReplayDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReplayDemo.modulemap"; sourceTree = "<group>"; };
+		C001D9B0B0CE5F2A649318850F35C61E /* TouchRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchRecorder.swift; sourceTree = "<group>"; };
+		C30B372340D721090F969CBE1DD6AFE3 /* Pods-ReplayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C7778CE71602A2D51C8DBC2E5730B0D1 /* FakeTouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FakeTouch-umbrella.h"; sourceTree = "<group>"; };
+		C8C1937990EA506B1C007060DD9DD55F /* Pods-ReplayDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplayDemo-dummy.m"; sourceTree = "<group>"; };
+		C973BE1D801C49261CA98C03B69168ED /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		D797E906E4BD2296D9DE8B21B1F3AD9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8C9315116221D2FA209EAC8ACC5F5A4 /* TouchPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchPlayer.swift; sourceTree = "<group>"; };
+		EA1A061784646AE95B41B6AC26ACC880 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F335842221E0EAA4A0142F14DB08922A /* UITouch+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITouch+Private.h"; sourceTree = "<group>"; };
+		F52FA099D62A620E22154C4271A50507 /* UIEvent+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIEvent+Private.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C90B787DD932280E0744D3F8039BF0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082B618CAF9DF100281DF28FF30B9B6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBADFB7B13799B2D7CBB4FF58AB9C6C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB087AC7784C490AF1B9B3ACC4F5620 /* Foundation.framework in Frameworks */,
+				A97B3C0A5A36A5953AE6F5A1B8BC5F0E /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87713256ADD0EE641FBF908CDAB62950 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34B087C5F9F5888838C0023B52579237 /* Private Headers */ = {
+			isa = PBXGroup;
+			children = (
+				98917296A434730548FDA9699BE9F8C6 /* UIApplication+Private.h */,
+				F52FA099D62A620E22154C4271A50507 /* UIEvent+Private.h */,
+				F335842221E0EAA4A0142F14DB08922A /* UITouch+Private.h */,
+			);
+			name = "Private Headers";
+			path = "Source/Private Headers";
+			sourceTree = "<group>";
+		};
+		48762A32AF1CEAD5C7B196F139A5CA76 /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				40FD14C362F749F09EC9887EBA145A31 /* Touch.swift */,
+				60F0A1C9C3B53EB5850A982EFA1FCB01 /* TouchEvent.swift */,
+				E8C9315116221D2FA209EAC8ACC5F5A4 /* TouchPlayer.swift */,
+				C001D9B0B0CE5F2A649318850F35C61E /* TouchRecorder.swift */,
+			);
+			name = Additional;
+			path = Source/Additional;
+			sourceTree = "<group>";
+		};
+		595E77A7CC99F312305E628A5CA215C5 /* FakeTouch */ = {
+			isa = PBXGroup;
+			children = (
+				842D840941F32A70BB5E10FCBBB65F9E /* FakeTouch.h */,
+				4B3945155347EA973C7AD4282D6FEEB8 /* UIEvent+FakeTouch.swift */,
+				4D010488D85FA78EF4935EF96B0B8D06 /* UITouch+FakeTouch.swift */,
+				48762A32AF1CEAD5C7B196F139A5CA76 /* Additional */,
+				D96A92560F8A50C2F68668DC88BB49C1 /* KIF */,
+				34B087C5F9F5888838C0023B52579237 /* Private Headers */,
+				CFA17CFCC6D2CF172C35CFF3A85F0D47 /* Support Files */,
+			);
+			name = FakeTouch;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		87713256ADD0EE641FBF908CDAB62950 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D797E906E4BD2296D9DE8B21B1F3AD9A /* Foundation.framework */,
+				52E710DA8B9C439E1805BC6A4A7D445F /* IOKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A117DBD77598857DED1D12144261C4D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A204F23E9E09BF53C67FF6540D94E7AD /* Pods-ReplayDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A204F23E9E09BF53C67FF6540D94E7AD /* Pods-ReplayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA1A061784646AE95B41B6AC26ACC880 /* Info.plist */,
+				A0759FD606DF28C792624C9CA7E7C62A /* Pods-ReplayDemo.modulemap */,
+				9D3A3C49931D86C9C5E2043A5F67CA61 /* Pods-ReplayDemo-acknowledgements.markdown */,
+				5F417A1CD5CF824980373A48C14ED2B9 /* Pods-ReplayDemo-acknowledgements.plist */,
+				C8C1937990EA506B1C007060DD9DD55F /* Pods-ReplayDemo-dummy.m */,
+				103FBC100BCCFB88034CD3F0ADE8FE51 /* Pods-ReplayDemo-frameworks.sh */,
+				4B654864B5E04867EF83BB24FBCB770C /* Pods-ReplayDemo-resources.sh */,
+				333BB4D19C57FF7C5435200ECA0824DC /* Pods-ReplayDemo-umbrella.h */,
+				C30B372340D721090F969CBE1DD6AFE3 /* Pods-ReplayDemo.debug.xcconfig */,
+				3BE6125D23C0537FBEDBB0865D8FDF14 /* Pods-ReplayDemo.release.xcconfig */,
+			);
+			name = "Pods-ReplayDemo";
+			path = "Target Support Files/Pods-ReplayDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				E8EA928A8CFDB1ED1DCA4E8EE4F39171 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CFF6434398D369AB6BD6A63C6FDA0D6F /* Products */,
+				A117DBD77598857DED1D12144261C4D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA17CFCC6D2CF172C35CFF3A85F0D47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BCB504EB10BBA31DC5951F5D373EE08 /* FakeTouch.modulemap */,
+				5C2FBDA9BC8AD7CA78725CE42BCB1554 /* FakeTouch.xcconfig */,
+				885ABE74DFC9385580DC131938937D04 /* FakeTouch-dummy.m */,
+				85B77580AB497F495AF727481689551E /* FakeTouch-prefix.pch */,
+				C7778CE71602A2D51C8DBC2E5730B0D1 /* FakeTouch-umbrella.h */,
+				213163F199F102811A76E9CECF8F041C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/FakeTouch";
+			sourceTree = "<group>";
+		};
+		CFF6434398D369AB6BD6A63C6FDA0D6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A91E895405142F5E64B9F809BF979DE /* FakeTouch.framework */,
+				51665111A8379246D5E29573B0F9523B /* Pods_ReplayDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D96A92560F8A50C2F68668DC88BB49C1 /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				C973BE1D801C49261CA98C03B69168ED /* IOHIDEvent+KIF.h */,
+				84F72511C7DC320F4873825D7837FCD1 /* IOHIDEvent+KIF.m */,
+			);
+			name = KIF;
+			path = Source/KIF;
+			sourceTree = "<group>";
+		};
+		E8EA928A8CFDB1ED1DCA4E8EE4F39171 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				595E77A7CC99F312305E628A5CA215C5 /* FakeTouch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E46A69E8EC019316ED1A4AD83A697F91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551AB1A08942F1AAF81F29669B1663B0 /* Pods-ReplayDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADEF8D6A9BA89F894FF14DDD4AFABC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7742749ABC807EC20494DFF29A11B5 /* FakeTouch-umbrella.h in Headers */,
+				5BA0B5A7F2A903234B1CC6A76CC0F82C /* FakeTouch.h in Headers */,
+				FAC1A2C87B7B20EF52BDCD1E60B790D0 /* IOHIDEvent+KIF.h in Headers */,
+				0F7CC310679C39B12B2B686438DA9D42 /* UIApplication+Private.h in Headers */,
+				2DB42EF8E8E88AB8F2E936431C6F51C6 /* UIEvent+Private.h in Headers */,
+				9A3BF5EBF224F9448C5284C272BD783E /* UITouch+Private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AEE871926F65FD30556C08072FE4FDF /* FakeTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A04D5BA39188A2DF3F119B93291E3A9 /* Build configuration list for PBXNativeTarget "FakeTouch" */;
+			buildPhases = (
+				EADEF8D6A9BA89F894FF14DDD4AFABC8 /* Headers */,
+				85885D7330D45B4F068E702AA9311DFE /* Sources */,
+				DBADFB7B13799B2D7CBB4FF58AB9C6C4 /* Frameworks */,
+				0DBA65A6CD565D0B2E41F4A59A82A941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeTouch;
+			productName = FakeTouch;
+			productReference = 9A91E895405142F5E64B9F809BF979DE /* FakeTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3B2CDA0AC1781D474BB29F320A5558F /* Pods-ReplayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8730BFB4DF7062FB4F9BE7928BB1549C /* Build configuration list for PBXNativeTarget "Pods-ReplayDemo" */;
+			buildPhases = (
+				E46A69E8EC019316ED1A4AD83A697F91 /* Headers */,
+				C7B5937B5D1DF499987ED20785722AE7 /* Sources */,
+				C90B787DD932280E0744D3F8039BF0A3 /* Frameworks */,
+				3DBB71723C92306923ACF345EA7F36F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A84F6FD004BE6B4E23CE5E5FCF39FAB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReplayDemo";
+			productName = "Pods-ReplayDemo";
+			productReference = 51665111A8379246D5E29573B0F9523B /* Pods_ReplayDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CFF6434398D369AB6BD6A63C6FDA0D6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AEE871926F65FD30556C08072FE4FDF /* FakeTouch */,
+				F3B2CDA0AC1781D474BB29F320A5558F /* Pods-ReplayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DBA65A6CD565D0B2E41F4A59A82A941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBB71723C92306923ACF345EA7F36F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85885D7330D45B4F068E702AA9311DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21D4C15325071788BDFB9D1AD6D6750 /* FakeTouch-dummy.m in Sources */,
+				6FAB5BA9DD95C01F2864EC1F407B7E1C /* IOHIDEvent+KIF.m in Sources */,
+				F53C2A079B00FAD86B8EE8E32A9CD998 /* Touch.swift in Sources */,
+				5161FC4A6759CD2FF641E724631668F7 /* TouchEvent.swift in Sources */,
+				1F68AD6EF2CBBDF7E4BC6229A143BEE1 /* TouchPlayer.swift in Sources */,
+				D7CFF3E34B6D087DB3B1A2BF050F3758 /* TouchRecorder.swift in Sources */,
+				0CBFEA45DC093D8995AB84FA45278DB6 /* UIEvent+FakeTouch.swift in Sources */,
+				D57A0BDAC438614AA294DACCC8701C89 /* UITouch+FakeTouch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B5937B5D1DF499987ED20785722AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56783FB8225AEF1C73A93B58CDA8376 /* Pods-ReplayDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A84F6FD004BE6B4E23CE5E5FCF39FAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FakeTouch;
+			target = 4AEE871926F65FD30556C08072FE4FDF /* FakeTouch */;
+			targetProxy = 6CCCE9E4E64C18D5D1526410E1A621E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AD91C74B993E05A30F6ABA8CA9F9E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE6125D23C0537FBEDBB0865D8FDF14 /* Pods-ReplayDemo.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReplayDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplayDemo/Pods-ReplayDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReplayDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18FE4B390AB7490CE92CD23F0B7BE8BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2FBDA9BC8AD7CA78725CE42BCB1554 /* FakeTouch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakeTouch/FakeTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakeTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FakeTouch/FakeTouch.modulemap";
+				PRODUCT_NAME = FakeTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F397B173C40721D6809AB75F6E0FE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30B372340D721090F969CBE1DD6AFE3 /* Pods-ReplayDemo.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReplayDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReplayDemo/Pods-ReplayDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ReplayDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8E412BFB24C36E3A59CC2A775FF27BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2FBDA9BC8AD7CA78725CE42BCB1554 /* FakeTouch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FakeTouch/FakeTouch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FakeTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FakeTouch/FakeTouch.modulemap";
+				PRODUCT_NAME = FakeTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D948DEABAC39F4B10B2C1300881191E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FA79A7CAE8EC99B6065CAC03B456961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D948DEABAC39F4B10B2C1300881191E1 /* Debug */,
+				FA79A7CAE8EC99B6065CAC03B456961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A04D5BA39188A2DF3F119B93291E3A9 /* Build configuration list for PBXNativeTarget "FakeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FE4B390AB7490CE92CD23F0B7BE8BD /* Debug */,
+				C8E412BFB24C36E3A59CC2A775FF27BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8730BFB4DF7062FB4F9BE7928BB1549C /* Build configuration list for PBXNativeTarget "Pods-ReplayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F397B173C40721D6809AB75F6E0FE4D /* Debug */,
+				0AD91C74B993E05A30F6ABA8CA9F9E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

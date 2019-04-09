@@ -1,0 +1,6 @@
+framework module FakeTouch {
+  umbrella header "FakeTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

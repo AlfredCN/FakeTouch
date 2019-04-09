@@ -1,0 +1,17 @@
+{
+  "name": "FakeTouch",
+  "version": "1.0.0",
+  "license": "MIT",
+  "summary": "FakeTouch is a framework that simulates iOS touch events.",
+  "homepage": "https://github.com/watanabetoshinori/FakeTouch",
+  "authors": "Watanabe Toshinori",
+  "source": {
+    "git": "https://github.com/watanabetoshinori/FakeTouch.git",
+    "tag": "1.0.0"
+  },
+  "frameworks": "IOKit",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "Source/**/*.{h,m,swift}"
+}

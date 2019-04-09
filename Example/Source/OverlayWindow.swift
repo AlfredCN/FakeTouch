@@ -33,8 +33,6 @@ class OverlayWindow: UIWindow {
     
     private func initialize() {
         TouchRecorder.shared.excludeWindow.append(self)
-        
-        windowLevel = UIWindow.Level.statusBar + 100
         rootViewController = UIStoryboard(name: "Overlay", bundle: nil).instantiateInitialViewController()!
     }
     

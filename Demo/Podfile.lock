@@ -1,0 +1,16 @@
+PODS:
+  - FakeTouch (1.0.0)
+
+DEPENDENCIES:
+  - FakeTouch (from `../`)
+
+EXTERNAL SOURCES:
+  FakeTouch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FakeTouch: a4cba8210f0944621bc0bebf4a2476dadd4bdc4c
+
+PODFILE CHECKSUM: b1fd1fe80f492daaad4693096eb65d54c0eedbf6
+
+COCOAPODS: 1.3.1
